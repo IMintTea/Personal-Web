@@ -1,0 +1,166 @@
+body {
+  /* background-image: url("https://bogdanmoldoveanu.com/img/WebsiteBackground.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #00000000;
+  color: #fff;
+  padding: 0 20px;
+  overflow: hidden;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav img {
+  height: 60px;
+}
+nav .logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+}
+nav .logo-container a:hover {
+  color: #545753;
+}
+#special-text a:hover {
+  color: #545753;
+}
+.nav-scrolled {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 0 20px;
+  overflow: hidden;
+  position: fixed;
+  width: 97%;
+  z-index: 1;
+}
+.nav-scrolled a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav-scrolled img {
+  height: 60px;
+}
+.markerbox {
+  background-color: #00000000;
+  width: 100%;
+  position: relative;
+  height: 30px;
+  top: -1.8em;
+}
+.home-page-intro {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home-page-intro img {
+  width: 200px;
+  height: auto;
+}
+.linebox {
+  background-color: #fff;
+  width: 550px;
+  padding: 2px;
+  margin: auto;
+}
+.logo-links a {
+  text-decoration: none;
+  fill: #fff;
+  position: relative;
+  top: 1em;
+}
+.logo-links svg:hover {
+  fill: #545753;
+}
+footer {
+  background-color: #1e1e1e90;
+  position: relative;
+  bottom: 0;
+  top: 50em;
+}
+.footer-content {
+  justify-content: center;
+  text-align: center;
+}
+.footer-bottom {
+  background-color: #000;
+  height: auto;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
+}
+.footer-content .svg {
+  color: #000;
+  position: relative;
+  top: 0.5em;
+}
+.about-page-intro {
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.skip-to-intro {
+  background-color: #00000000;
+  width: 100%;
+  position: relative;
+  height: 30px;
+  top: 0.2sem;
+}
+.jumpto-button {
+  position: relative;
+  text-decoration: none;
+  stroke: #fff;
+}
+.jumpto-button svg:hover {
+  stroke: #545753;
+}
+.about-sectionOne {
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5em;
+}
+.about-page-footer {
+  background-color: #1e1e1e90;
+  position: relative;
+  bottom: 0;
+  top: 10em;
+  width: 100%;
+}
+.contact-page-intro {
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2em;
+}
+.pojects-page-intro {
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2em;
+}
